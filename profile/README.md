@@ -108,13 +108,3 @@
      - матчмейкер – `https://mm-host/gamehub` (JWT в `access_token` query string).
 
 ---
-
-### Рекомендуемая структура документации
-
-- **Root `README.md`** (этот файл) – общий обзор архитектуры и сервисов.
-- **Отдельные README по проектам**:
-  - `kTVCSSBlazor/` – фронтенд.
-  - `kTVCSSBlazor.API/` – API.
-  - `kTVCSSBlazor.ChatHub/` – чат.
-  - `kTVCSSBlazor.MatchManager/` – матчмейкинг.
-  - `kTVCSS.Db/`, `kTVCSS.Models/`, `kTVCSS.Notifications/`, `kTVCSS.DomainRestrictionMiddleware/` – библиотеки.
